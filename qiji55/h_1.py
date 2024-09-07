@@ -13,3 +13,12 @@ print(result)
 # result = result + sign * i
 # sign = sign * -1
 # 1-3+5-7+9-11
+
+# sum_value = 0
+# i = 1
+# sign = 1
+# while i <= 101:
+#     sum_value += i * sign
+#     sign *= -1
+#     i += 2
+# print(sum_value)
