@@ -5,12 +5,14 @@
 # 4. 如果猜测的数字比随机数小，输出：猜测的数字有点小，再来一次
 import random
 num = random.randint(1,100)
-guess_num = int(input("请输入你猜想的数字："))
-if guess_num == num:
-    print("恭喜你猜对了，数字是%d" % guess_num)
-elif guess_num > num:
-    print("猜测的数字太大了，继续加油")
-elif guess_num < num:
-    print("猜测的数字有点小，再来一次")
-else:
-    print("输入有误，请重新输入！")
+while True:
+    guess_num = int(input("请输入你猜想的数字："))
+    if guess_num == num:
+        print("恭喜你猜对了，数字是%d" % guess_num)
+        break
+    elif guess_num > num:
+        print("猜测的数字太大了，继续加油")
+    elif guess_num < num:
+        print("猜测的数字有点小，再来一次")
+    else:
+        print("输入有误，请重新输入！")
