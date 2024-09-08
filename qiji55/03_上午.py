@@ -87,7 +87,13 @@
 # 反向索引：从右往左数，默认从-1开始
 # 用法：
 # 变量名[索引值]
-
+# def power(i, n):
+#     if n == 0:
+#         return 1
+#     elif n > 0:
+#         return i * power(i, n - 1)
+#     else:
+#         return 1 / (i * power(i, -n - 1))
 
 
 
