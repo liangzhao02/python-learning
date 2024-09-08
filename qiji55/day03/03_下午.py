@@ -39,7 +39,11 @@
 #partition:分割,分割完永远只返回三部分,分隔符,分隔符之前,分隔符之后,返回的是一个元组的数据类型
 #rpartition:从右往左找分割,分割完永远只返回三部分,分隔符,分隔符之前,分隔符之后,返回的是一个元组的数据类型
 #splitlines:按照换行符进行分割,返回的是列表的数据类型
-mstr = "  hell\no wor\nld  "
+# isalpha:判断字符串是否全用字母组成
+# isdigit:判断字符串是否全部由数字组成
+# isalnum:判断字符串是否由数字或字母组成
+# isspace:判断字符串是否全部由空格组成
+mstr = "  hello world  "
 # res = mstr.find('w')
 # res = mstr.find('o')
 # res = mstr.rfind('o')
@@ -55,6 +59,6 @@ mstr = "  hell\no wor\nld  "
 # res = mstr.count()
 # res = mstr.capitalize()
 # res = mstr.partition("o")
-res = mstr.splitlines()
+res = mstr.isalpha()
 
 print(res)

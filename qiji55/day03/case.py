@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 # 启动 Edge 浏览器
-driver = webdriver.Edge()
+driver = webdriver.Firefox()
 
 # 打开百度首页
 driver.get('https://www.baidu.com')
