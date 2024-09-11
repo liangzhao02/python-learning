@@ -75,20 +75,42 @@
 # 函数
 # def
 # 定义
-def demo():
-    a = 1
-    b = 2
-    print(a + b)
+# def demo():
+#     a = 1
+#     b = 2
+#     print(a + b)
 # 调用
-demo()
+# demo()
 # print(demo())
 
+# 1.查看函数的文档说明
+# help(函数名)
+# help(print)
+# print()
+# 2.给函数添加文档说明
+# def demo():
+#     """
+#     该函数是用来求两数之和的
+#
+#     """
+#     a = 1
+#     b = 2
+#     print(a + b)
+#
+# help(demo)
+# 需求:封装一个函数，该函数可以实现求两数之和
+# 形参:在定义函数时写在函数名后的小括号中
+# 实参:在调用函数的时小括号中传入的数据
+# def demo(a,b):
+#     print(a + b)
+#
+#
+# demo(3,1)
+def demo(a,b):
+    return a + b
 
-
-
-
-
-
+res = demo(1,2)
+print(res + 10)
 
 
 
