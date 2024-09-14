@@ -102,11 +102,22 @@ li = [1,2,5,8]
 #         return x ** 2    map实现输出[1,4,25,64]
 # res = list(map(demo,li))
 # res = list(filter(demo,li))
-res = filter(lambda x: x % 2 == 0, li)
-print(list(res))
+# res = filter(lambda x: x % 2 == 0, li)
+# print(list(res))
 
-
-
+#输出列表['HeLLo','Itfeat']
+li = ['Hello','hi','Itfeat']
+# def demo(x):
+#     if x == x.capitalize():
+#         return x
+# def demo(x):
+#     if x[0].isupper():
+#         return x
+demo = lambda x: x[0].isupper()
+res =list(filter(demo,li))
+# res =list(filter(lambda x:x[0].isupper(),li)
+# res = list(filter(lambda x:x == x.capitalize(),li))
+print(res)
 
 
 
