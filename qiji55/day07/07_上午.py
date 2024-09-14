@@ -59,16 +59,28 @@ li =[1,2,3,4]
 # li1 =[str(i) for i in li]
 # print(li1)
 
-def demo(x):
-    return str(x)
+# def demo(x):
+#     return str(x)
+#
+# res = list(map(demo,li))
+# print(res)
 
-res = list(map(demo,li))
+#输出列表['Hello','Hi','Itfeat']
+# my_list =['hello','hi','itfeat']
+#
+# def demo(s):
+#     s_ =str(s.capitalize())
+#     return s_
+# res = list(map(demo,my_list))
+# print(res)
+
+# my_list = ['hello', 'hi', 'itfeat']
+# new_list = list(map(str.capitalize, my_list))
+# print(new_list)
+
+my_list = ['hello', 'hi', 'itfeat']
+# new_list = [word.capitalize() for word in my_list]
+# print(new_list)
+
+res = list(map(lambda x:x.capitalize(), my_list))
 print(res)
-
-
-
-
-
-
-
-
