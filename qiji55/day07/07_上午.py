@@ -48,7 +48,7 @@
 
 # map:是一个函数,可以将列表按照指定规则输出
 # 输出列表['1','2','3','4']
-li =[1,2,3,4]
+# li =[1,2,3,4]
 # 方式1
 # li1 = []
 # for i in li:
@@ -78,9 +78,44 @@ li =[1,2,3,4]
 # new_list = list(map(str.capitalize, my_list))
 # print(new_list)
 
-my_list = ['hello', 'hi', 'itfeat']
+# my_list = ['hello', 'hi', 'itfeat']
 # new_list = [word.capitalize() for word in my_list]
 # print(new_list)
 
-res = list(map(lambda x:x.capitalize(), my_list))
-print(res)
+# res = list(map(lambda x:x.capitalize(), my_list))
+# print(res)
+
+# filter:是一个函数,将列表按照某种规则进行过滤
+# 以列表的形式输出[2,8]
+li = [1,2,5,8]
+# 方式1
+# li1 = []
+# for i in li:
+#     if i % 2 == 0:
+#         li1.append(i)
+# print(li1)
+
+# def demo(x):
+#     if x % 2 == 0:
+#         return x
+# def demo(x):
+#         return x ** 2    map实现输出[1,4,25,64]
+# res = list(map(demo,li))
+# res = list(filter(demo,li))
+res = filter(lambda x: x % 2 == 0, li)
+print(list(res))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
