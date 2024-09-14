@@ -63,6 +63,7 @@ def fun_A(x,y=3):
 """
 lambda x:x if x%2 else None
 """
+
 # def fun(x):
 #     if x%2:
 #         return x
