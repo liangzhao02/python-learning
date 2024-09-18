@@ -9,8 +9,8 @@ class Person(object):
         print('啊 我被销毁了...')
 
 p = Person()
-print('好好学习')
-print('好好学习')
-del p
-print('好好学习')
-print('好好学习')
+# print('好好学习')
+# print('好好学习')
+# del p
+# print('好好学习')
+# print('好好学习')
