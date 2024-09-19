@@ -12,7 +12,7 @@ print(result)
 
 # i = 1
 # sum = 0
-# a =1
+# a = 1
 # while i <= 101:
 #     if i % 2 != 0:
 #         sum += i * a
