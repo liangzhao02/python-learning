@@ -1,10 +1,10 @@
 # No.27
-li = [8,3,1,2,5]
-for i in range(0, len(li)-1):
-    for j in range(0, len(li)-1-i):
-        if li[j] > li[j+1]:
-            li[j], li[j+1] = li[j+1], li[j]
-print(li)
+# li = [8,3,1,2,5]
+# for i in range(0, len(li)-1):
+#     for j in range(0, len(li)-1-i):
+#         if li[j] > li[j+1]:
+#             li[j], li[j+1] = li[j+1], li[j]
+# print(li)
 
 # No.28
 def reverse_number(num):
